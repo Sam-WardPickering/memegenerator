@@ -14,9 +14,10 @@
     <title>Meme Generator</title>
 </head>
 <body>
+ 
     <div class="page-container">
 
-        <h1>Make your Meme</h1>
+        <h1 id="header">Make your Meme</h1>
 
         <div class="form-container">
             <form class="form">
@@ -36,8 +37,10 @@
                     <label>Text 4</label>
                     <input id="input4" type="text"> 
                 </div>
-                <button type="button" class="submitButton" id="submitBttn" onsubmit="event.preventDefault">Create</button>
-                <input type="reset">
+                <div class="button-container">
+                    <button type="button" class="submitButton" id="submitBttn" onsubmit="event.preventDefault">Create</button>
+                    <input id="resetBttn" type="reset">
+                </div>
             </form>
         </div>
 

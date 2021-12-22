@@ -124,7 +124,42 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+/*      NEW CHANGES     */
+
+
 .submitButton {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 9px;
+    border-width: 2px;
+    padding: 6px 10px 6px 10px;
+    border-style: block;
+    text-decoration: none;
+
+}
+
+#resetBttn {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 9px;
+    border-width: 2px;
+    padding: 6px 10px 6px 10px;
+    border-style: block;
+    text-decoration: none;
+
+}
+
+#resetBttn:hover {
+    background-color: #A6DCEF;
+    color: white;
+}
+
+.submitButton:hover {
+    background-color: #89C9B8;
+    color: white;
+}
+
+.button-container {
+    padding-top: 8px;
 }
 

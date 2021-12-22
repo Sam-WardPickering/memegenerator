@@ -29,3 +29,18 @@ function getInput() {
 document.getElementById("submitBttn").addEventListener('click', getInput);
 
 
+//      NEW CHANGES     //
+
+//      Create reset button for whole page      //
+
+document.getElementById("resetBttn").addEventListener('click', resetMeme);
+
+function resetMeme() {
+
+    document.getElementById('memeText1').innerText = "";
+    document.getElementById('memeText2').innerText = "";
+    document.getElementById('memeText3').innerText = "";
+    document.getElementById('memeText4').innerText = "";
+
+}
+
