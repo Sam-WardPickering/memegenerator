@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    color: black:
+    color: black;
 }
 
 .meme-container {
@@ -64,6 +64,18 @@ body {
 #memeText4 {
     margin-top: 260px;
     margin-left: 90px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+
+#memeText5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 90px;
+    text-align: center;
     overflow-wrap: break-word;
     overflow: hidden;
     padding-left: 10px;
@@ -162,4 +174,168 @@ h1 {
 .button-container {
     padding-top: 8px;
 }
+
+#memeText5Div #memeText5 {
+    
+    width: 340px;
+    height: 165px;
+    margin-top: 50px;
+    margin-left: 86px;
+    vertical-align:middle;
+    overflow-wrap: break-word;
+    overflow: hidden;
+
+}
+
+#memeText6Div #memeText6{
+    margin-top: 25px;
+    
+    margin-left: 25px;
+    width: 280px;
+    height: 110px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 25px;
+   
+
+}
+
+#memeText7Div #memeText7{
+    margin-top: 165px;
+   
+    margin-left: 25px;
+    width: 280px;
+    height: 110px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 25px;
+   
+
+}
+
+#memeText8Div #memeText8{
+    margin-top: 300px;
+    
+    margin-left: 25px;
+    width: 280px;
+    height: 110px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 25px;
+   
+
+}
+
+#memeText9Div #memeText9{
+    margin-top: 435px;
+  
+    margin-left: 25px;
+    width: 280px;
+    height: 110px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 25px;
+   
+
+}
+
+#memeText10Div #memeText10{
+    margin-top: 570px;
+   
+    margin-left: 25px;
+    width: 280px;
+    height: 110px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 25px;
+   
+
+}
+
+#memeText11Div #memeText11 {
+    margin-top: 80px;
+    /*background-color: red;*/
+    margin-left: 60px;
+    width: 140px;
+    height: 65px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    transform: rotate(-13deg);
+
+}
+
+#memeText12Div #memeText12 {
+    margin-top: 55px;
+    /* background-color: red; */
+    margin-left: 240px;
+    width: 105px;
+    height: 65px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    transform: rotate(-8deg);
+    font-size: 18px;
+
+}
+
+#memeText13Div #memeText13 {
+    margin-top: 15px;
+   /* background-color: yellow; */
+    margin-left: 240px;
+    width: 105px;
+    height: 20px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 18px;
+
+}
+
+#memeText14Div #memeText14 {
+    margin-top: 20px;
+    /*background-color: red; */
+    margin-left: 240px;
+    width: 105px;
+    height: 65px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 18px;
+
+}
+
+#memeText15Div #memeText15 {
+    margin-top: 20px;
+    background-color: green; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 25px;
+    width: 450px;
+    height: 100px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+#memeText16Div #memeText16 {
+    margin-top: 380px;
+    background-color: blue; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 25px;
+    width: 455px;
+    height: 100px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+
+}
+
 
