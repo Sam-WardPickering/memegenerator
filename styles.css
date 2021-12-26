@@ -280,61 +280,77 @@ h1 {
 }
 
 #memeText13Div #memeText13 {
-    margin-top: 15px;
+    margin-top: 13px;
    /* background-color: yellow; */
-    margin-left: 240px;
-    width: 105px;
-    height: 20px;
+    margin-left: 5px;
+    width: 490px;
+    height: 50px;
     overflow-wrap: break-word;
     overflow: hidden;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    text-transform:uppercase;
+    font-family: 'Impact', sans-serif;
+    
 
 }
 
 #memeText14Div #memeText14 {
-    margin-top: 20px;
+    margin-top: 285px;
     /*background-color: red; */
-    margin-left: 240px;
-    width: 105px;
-    height: 65px;
+    margin-left: 5px;
+    width: 490px;
+    height: 70px;
     overflow-wrap: break-word;
     overflow: hidden;
-    line-height: 20px;
-    font-size: 18px;
+    line-height: 35px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Impact', sans-serif;
 
 }
 
 #memeText15Div #memeText15 {
-    margin-top: 20px;
-    background-color: green; 
+    margin-top: 15px;
+   /* background-color: green; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     color: white;
-    margin-left: 25px;
-    width: 450px;
+    margin-left: 5px;
+    width: 490px;
     height: 100px;
     overflow-wrap: break-word;
     overflow: hidden;
-    line-height: 20px;
+    line-height: 40px;
     font-size: 45px;
     text-align: center;
+    padding-top: 0px;
+    text-transform: uppercase;
+    
 
 }
 
 #memeText16Div #memeText16 {
-    margin-top: 380px;
-    background-color: blue; 
+    margin-top: 420px;
+    /*background-color: blue; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 25px;
-    width: 455px;
-    height: 100px;
+    margin-left: 5px;
+    width: 490px;
+    height: 60px;
     overflow-wrap: break-word;
     overflow: hidden;
     line-height: 20px;
     font-size: 45px;
     color: white;
     text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
 
 }
 
