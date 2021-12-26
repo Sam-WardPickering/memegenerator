@@ -19,7 +19,7 @@
 
         <h1 id="header">Make your Meme</h1>
 
-        <div class="form-container">
+        <div id="formCont" class="form-container">
             <form class="form">
                 <div class="input-container" id="inputCont1">
                     <label>Text 1</label>
@@ -43,7 +43,7 @@
                 </div>
 
 
-                <div class="button-container">
+                <div id="buttonCont" class="button-container">
                     <button type="button" class="submitButton" id="submitBttn" onsubmit="event.preventDefault">Create</button>
                     <input id="resetBttn" type="reset">
                 </div>
@@ -51,9 +51,11 @@
                 
             </form>
         </div>
-        
-        <button id="nextBttn">Next</button>
-        <button id="prevBttn">Prev</button>
+
+        <div class="navBttns">
+            <button id="prevBttn"><<</button>
+            <button id="nextBttn">>></button>
+        </div>
         
         <div class="meme-container">
 

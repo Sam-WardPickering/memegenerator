@@ -1,3 +1,24 @@
+document.addEventListener('keydown', function(e) {
+    switch (e.keyCode) {
+       
+        case 39:
+           nextMeme();
+            break;
+        case 37:
+            prevMeme();
+            break;
+
+
+    }
+  });
+
+
+
+
+
+
+
+
 // create a function to get input from page
 
 document.getElementById("submitBttn").addEventListener('click', getInput);
@@ -118,6 +139,8 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "visible";
         document.getElementById('inputCont4').style.visibility = "visible";
         document.getElementById('inputCont5').style.visibility = "hidden";
+       // document.getElementById('buttonCont').style.marginTop = "-10px";
+
 
     }
     
@@ -128,7 +151,7 @@ function pageLoad(){
     document.getElementById('inputCont3').style.visibility = "hidden";
     document.getElementById('inputCont4').style.visibility = "hidden";
     document.getElementById('inputCont5').style.visibility = "hidden";
-
+    //document.getElementById('buttonCont').style.marginTop = "-70px";
     } 
     
     if(memeNumber === 2){
@@ -142,6 +165,8 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "visible";
         document.getElementById('inputCont4').style.visibility = "visible";
         document.getElementById('inputCont5').style.visibility = "visible";
+        //document.getElementById('buttonCont').style.marginTop = "10px";
+
         } 
         
     if(memeNumber === 3){
@@ -153,6 +178,8 @@ function pageLoad(){
             document.getElementById('inputCont3').style.visibility = "hidden";
             document.getElementById('inputCont4').style.visibility = "hidden";
             document.getElementById('inputCont5').style.visibility = "hidden";
+            //document.getElementById('buttonCont').style.marginTop = "-50px";
+
             } 
             
     if(memeNumber === 4){
