@@ -135,20 +135,24 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "visible";
         document.getElementById('inputCont4').style.visibility = "visible";
         document.getElementById('inputCont5').style.visibility = "hidden";
+        document.getElementById('memeCont2').style.height = "646px"
+        document.getElementById('memeCont2').style.width = "490px"
        // document.getElementById('buttonCont').style.marginTop = "-10px";
 
 
     }
     
     if(memeNumber === 1){
-    output0 = 'memeText5';
-    document.getElementById('inputCont1').style.visibility = "visible";
-    document.getElementById('inputCont2').style.visibility = "hidden";
-    document.getElementById('inputCont3').style.visibility = "hidden";
-    document.getElementById('inputCont4').style.visibility = "hidden";
-    document.getElementById('inputCont5').style.visibility = "hidden";
-    //document.getElementById('buttonCont').style.marginTop = "-70px";
-    } 
+        output0 = 'memeText5';
+        document.getElementById('inputCont1').style.visibility = "visible";
+        document.getElementById('inputCont2').style.visibility = "hidden";
+        document.getElementById('inputCont3').style.visibility = "hidden";
+        document.getElementById('inputCont4').style.visibility = "hidden";
+        document.getElementById('inputCont5').style.visibility = "hidden";
+        document.getElementById('memeCont2').style.height = "375px"
+        document.getElementById('memeCont2').style.width = "500px"
+        //document.getElementById('buttonCont').style.marginTop = "-70px";
+        } 
     
     if(memeNumber === 2){
         output0 = 'memeText6'
@@ -161,6 +165,8 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "visible";
         document.getElementById('inputCont4').style.visibility = "visible";
         document.getElementById('inputCont5').style.visibility = "visible";
+        document.getElementById('memeCont2').style.height = "700px"
+        document.getElementById('memeCont2').style.width = "500px"
         //document.getElementById('buttonCont').style.marginTop = "10px";
 
         } 
@@ -174,6 +180,8 @@ function pageLoad(){
             document.getElementById('inputCont3').style.visibility = "hidden";
             document.getElementById('inputCont4').style.visibility = "hidden";
             document.getElementById('inputCont5').style.visibility = "hidden";
+            document.getElementById('memeCont2').style.height = "750px";
+            document.getElementById('memeCont2').style.width = "500px";
             //document.getElementById('buttonCont').style.marginTop = "-50px";
 
             } 
@@ -186,6 +194,8 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "hidden";
         document.getElementById('inputCont4').style.visibility = "hidden";
         document.getElementById('inputCont5').style.visibility = "hidden";
+        document.getElementById('memeCont2').style.height = "380px";
+        document.getElementById('memeCont2').style.width = "500px";
                 } 
                 
     if(memeNumber === 5){
@@ -196,6 +206,8 @@ function pageLoad(){
         document.getElementById('inputCont3').style.visibility = "hidden";
         document.getElementById('inputCont4').style.visibility = "hidden";
         document.getElementById('inputCont5').style.visibility = "hidden";
+        document.getElementById('memeCont2').style.height = "500px";
+        document.getElementById('memeCont2').style.width = "500px";
                     } 
 
 }

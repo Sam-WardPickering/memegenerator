@@ -25,6 +25,7 @@ body {
     width: 500px;
     height: 600px;
     z-index: 2;
+    /*background-color: rgba(0, 128, 0, 0.274);*/
 }
 
 .meme-text {
