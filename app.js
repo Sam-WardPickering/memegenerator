@@ -1,3 +1,5 @@
+const capture = document.getElementById('capture')
+
 document.addEventListener('keydown', function(e) {
     switch (e.keyCode) {
        
@@ -11,13 +13,6 @@ document.addEventListener('keydown', function(e) {
 
     }
   });
-
-
-
-
-
-
-
 
 // create a function to get input from page
 
@@ -120,6 +115,7 @@ function resetMeme() {
     document.getElementById('memeText14').innerText = "";
     document.getElementById('memeText15').innerText = "";
     document.getElementById('memeText16').innerText = "";
+    document.getElementById('imageGenerated').innerHTML = "";
 
 }
 
@@ -202,4 +198,13 @@ function pageLoad(){
         document.getElementById('inputCont5').style.visibility = "hidden";
                     } 
 
+}
+
+
+function save() {
+
+    html2canvas(capture).then(canvas => {
+        document.getElementById('imageGenerated').appendChild(canvas)
+    });
+    
 }

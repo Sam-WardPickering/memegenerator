@@ -358,3 +358,7 @@ h1 {
 .navBttns {
     padding-bottom: 10px;
 }
+
+.meme-image {
+    z-index: -3;
+}
