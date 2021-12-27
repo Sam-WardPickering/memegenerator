@@ -1,462 +1,440 @@
 body {
-    margin: 0;
-    color: black;
-    /*background-color: rgb(221, 204, 198);*/
-    background-color: #F3F4ED;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 40px;
+  margin: 0;
+  color: black;
+  /*background-color: rgb(221, 204, 198);*/
+  background-color: #f3f4ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
 }
-
 
 .meme-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .meme-image {
-   width: 500px;
-   height: auto;
-   z-index: 0;
-   position: absolute
+  width: 500px;
+  height: auto;
+  z-index: 0;
+  position: absolute;
+}
+
+.nav-body {
+  display: flex;
+  flex-direction: row;
+}
+
+#header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffaf87;
-    padding: 10px;
-    border-radius: 10px;
-    /* position: absolute; */
-    /* left: 0;
-    margin-left: 20px;
-    margin-top: 20px; */
-    
-    /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffaf87;
+  padding: 10px;
+  border-radius: 10px;
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
 }
 
-.page-container{
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    /* vertical-align: top; */
-    align-items: center;
+.page-container {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  /* vertical-align: top; */
+  align-items: center;
 }
 
 .meme-container-2 {
-    width: 500px;
-    height: 600px;
-    z-index: 2;
-    /*background-color: rgba(0, 128, 0, 0.274);*/
+  width: 500px;
+  height: 600px;
+  z-index: 2;
+  /*background-color: rgba(0, 128, 0, 0.274);*/
 }
 
 .meme-background {
-    background-color: #ffffff;
-    border: #FF7F3F;
-    border-style: solid;
-    padding: 10px;
-    border-radius: 10px;
-    border-width: 20px;
-    z-index: -3;
-    margin: 20px;
+  background-color: #ffffff;
+  border: #ff7f3f;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 20px;
+  z-index: -3;
+  margin: 20px;
+}
+
+.input {
+  height: 20px;
+  width: 200px;
 }
 
 .meme-text {
-    position:absolute;
-    font-family: 'Cairo';
-    font-size: 20px;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */   
+  position: absolute;
+  font-family: "Cairo";
+  font-size: 20px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 #memeText1 {
-    margin-left: -50px;
-    line-height: 20px;
-    padding-left: 10px;
-    overflow-wrap: break-word;
-    overflow: hidden;
+  margin-left: -50px;
+  line-height: 20px;
+  padding-left: 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
 #memeText2 {
-    margin-top: 250px;
-    margin-left: -190px;
-    padding-left: 5px;
-    overflow-wrap: break-word;
-    overflow: hidden;
+  margin-top: 250px;
+  margin-left: -190px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
 #memeText3 {
-    margin-top: 256px;
-    margin-left: -53px;
-    overflow-wrap: break-word;
-    overflow: hidden;
+  margin-top: 256px;
+  margin-left: -53px;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
-
 
 #memeText4 {
-    margin-top: 260px;
-    margin-left: 90px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    padding-left: 10px;
+  margin-top: 260px;
+  margin-left: 90px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  padding-left: 10px;
 }
-
 
 #memeText5 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    margin-top: 80px;
-    margin-left: 90px;
-    text-align: center;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    padding-left: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 90px;
+  text-align: center;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  padding-left: 10px;
 }
 
-#memeText1Div #memeText1{
-    margin-top: 5px;
-    /* background-color: blue; */
-    margin-left: 150px;
-    width: 300px;
-    max-height: 45px;
-    border-radius: 15px;
-
+#memeText1Div #memeText1 {
+  margin-top: 5px;
+  /* background-color: blue; */
+  margin-left: 150px;
+  width: 300px;
+  max-height: 45px;
+  border-radius: 15px;
 }
 
-#memeText2Div #memeText2{
-    /* background-color: red; */
-    margin-top: 242px;
-    width: 100px;
-    max-height: 30px;
-    margin-left: 25px;
-    border-radius: 10px;
+#memeText2Div #memeText2 {
+  /* background-color: red; */
+  margin-top: 242px;
+  width: 100px;
+  max-height: 30px;
+  margin-left: 25px;
+  border-radius: 10px;
 }
 
 #memeText3Div #memeText3 {
-    width: 80px;
-    max-height: 30px;
-    justify-content: center;
-    /* background-color: green; */
-    margin-top: 250px;
-    margin-left: 165px;
-    border-radius: 10px;
+  width: 80px;
+  max-height: 30px;
+  justify-content: center;
+  /* background-color: green; */
+  margin-top: 250px;
+  margin-left: 165px;
+  border-radius: 10px;
 }
 
-#memeText4Div #memeText4{
-    /* background-color: purple; */
-    width: 130px;
-    max-height: 40px;
-    margin-left: 309px;
-    border-radius: 10px;
-
-
+#memeText4Div #memeText4 {
+  /* background-color: purple; */
+  width: 130px;
+  max-height: 40px;
+  margin-left: 309px;
+  border-radius: 10px;
 }
 
 .meme-container {
-    font-family: 'Cairo', sans-serif;
-   
+  font-family: "Cairo", sans-serif;
 }
 
 .form-container {
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 30px;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*      NEW CHANGES     */
 
-
 .submitButton {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    border-radius: 9px;
-    border-width: 2px;
-    padding: 6px 10px 6px 10px;
-    border-style: block;
-    text-decoration: none;
-
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border-radius: 9px;
+  border-width: 2px;
+  padding: 6px 10px 6px 10px;
+  border-style: block;
+  text-decoration: none;
 }
 
 #resetBttn {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    border-radius: 9px;
-    border-width: 2px;
-    padding: 6px 10px 6px 10px;
-    border-style: block;
-    text-decoration: none;
-
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border-radius: 9px;
+  border-width: 2px;
+  padding: 6px 10px 6px 10px;
+  border-style: block;
+  text-decoration: none;
 }
 
 #resetBttn:hover {
-    background-color: #F2A154;
-    color: white;
+  background-color: #f2a154;
+  color: white;
 }
 
 .submitButton:hover {
-    background-color: #F2A154;
-    color: white;
+  background-color: #f2a154;
+  color: white;
 }
 
 #saveBttn {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    border-radius: 9px;
-    border-width: 2px;
-    padding: 6px 10px 6px 10px;
-    border-style: block;
-    text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  border-radius: 9px;
+  border-width: 2px;
+  padding: 6px 10px 6px 10px;
+  border-style: block;
+  text-decoration: none;
 }
 
 #saveBttn:hover {
-    background-color: #F2A154;
-    color: white;
+  background-color: #f2a154;
+  color: white;
 }
 
 .button-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
 }
 
 #memeText5Div #memeText5 {
-    
-    width: 340px;
-    height: 165px;
-    margin-top: 50px;
-    margin-left: 86px;
-    vertical-align:middle;
-    overflow-wrap: break-word;
-    overflow: hidden;
-
+  width: 340px;
+  height: 165px;
+  margin-top: 50px;
+  margin-left: 86px;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
-#memeText6Div #memeText6{
-    margin-top: 25px;
-    
-    margin-left: 25px;
-    width: 280px;
-    height: 110px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 25px;
-   
+#memeText6Div #memeText6 {
+  margin-top: 25px;
 
+  margin-left: 25px;
+  width: 280px;
+  height: 110px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 25px;
 }
 
-#memeText7Div #memeText7{
-    margin-top: 165px;
-   
-    margin-left: 25px;
-    width: 280px;
-    height: 110px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 25px;
-   
+#memeText7Div #memeText7 {
+  margin-top: 165px;
 
+  margin-left: 25px;
+  width: 280px;
+  height: 110px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 25px;
 }
 
-#memeText8Div #memeText8{
-    margin-top: 300px;
-    
-    margin-left: 25px;
-    width: 280px;
-    height: 110px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 25px;
-   
+#memeText8Div #memeText8 {
+  margin-top: 300px;
 
+  margin-left: 25px;
+  width: 280px;
+  height: 110px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 25px;
 }
 
-#memeText9Div #memeText9{
-    margin-top: 435px;
-  
-    margin-left: 25px;
-    width: 280px;
-    height: 110px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 25px;
-   
+#memeText9Div #memeText9 {
+  margin-top: 435px;
 
+  margin-left: 25px;
+  width: 280px;
+  height: 110px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 25px;
 }
 
-#memeText10Div #memeText10{
-    margin-top: 570px;
-   
-    margin-left: 25px;
-    width: 280px;
-    height: 110px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 25px;
-   
+#memeText10Div #memeText10 {
+  margin-top: 570px;
 
+  margin-left: 25px;
+  width: 280px;
+  height: 110px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 25px;
 }
 
 #memeText11Div #memeText11 {
-    margin-top: 80px;
-    /*background-color: red;*/
-    margin-left: 60px;
-    width: 140px;
-    height: 65px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 20px;
-    transform: rotate(-13deg);
-
+  margin-top: 80px;
+  /*background-color: red;*/
+  margin-left: 60px;
+  width: 140px;
+  height: 65px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 20px;
+  transform: rotate(-13deg);
 }
 
 #memeText12Div #memeText12 {
-    margin-top: 55px;
-    /* background-color: red; */
-    margin-left: 240px;
-    width: 105px;
-    height: 65px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 20px;
-    transform: rotate(-8deg);
-    font-size: 18px;
-
+  margin-top: 55px;
+  /* background-color: red; */
+  margin-left: 240px;
+  width: 105px;
+  height: 65px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 20px;
+  transform: rotate(-8deg);
+  font-size: 18px;
 }
 
 #memeText13Div #memeText13 {
-    margin-top: 13px;
-   /* background-color: yellow; */
-    margin-left: 5px;
-    width: 490px;
-    height: 50px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 20px;
-    font-size: 45px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    text-transform:uppercase;
-    font-family: 'Impact', sans-serif;
-    
-
+  margin-top: 13px;
+  /* background-color: yellow; */
+  margin-left: 5px;
+  width: 490px;
+  height: 50px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "Impact", sans-serif;
 }
 
 #memeText14Div #memeText14 {
-    margin-top: 285px;
-    /*background-color: red; */
-    margin-left: 5px;
-    width: 490px;
-    height: 70px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 35px;
-    font-size: 45px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'Impact', sans-serif;
-
+  margin-top: 285px;
+  /*background-color: red; */
+  margin-left: 5px;
+  width: 490px;
+  height: 70px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 35px;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "Impact", sans-serif;
 }
 
 #memeText15Div #memeText15 {
-    margin-top: 15px;
-   /* background-color: green; */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    color: white;
-    margin-left: 5px;
-    width: 490px;
-    height: 100px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 40px;
-    font-size: 45px;
-    text-align: center;
-    padding-top: 0px;
-    text-transform: uppercase;
-    
-
+  margin-top: 15px;
+  /* background-color: green; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-left: 5px;
+  width: 490px;
+  height: 100px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 40px;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 0px;
+  text-transform: uppercase;
 }
 
 #memeText16Div #memeText16 {
-    margin-top: 420px;
-    /*background-color: blue; */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 5px;
-    width: 490px;
-    height: 60px;
-    overflow-wrap: break-word;
-    overflow: hidden;
-    line-height: 20px;
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    text-transform: uppercase;
-
+  margin-top: 420px;
+  /*background-color: blue; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 5px;
+  width: 490px;
+  height: 60px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
 
-
 .navBttns {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .meme-image {
-    z-index: -3;
+  z-index: -3;
 }
 
-.footer  {
-    font-family: 'Roboto', sans-serif;
-    color: #364547;
-    display:flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    font-size: 12px;
-    position: sticky
+.footer {
+  font-family: "Roboto", sans-serif;
+  color: #364547;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
 }
 
 .hyperlink {
-    color: #364547;
+  color: #364547;
 }
 
 #nextBttn {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    color: #AF0404;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #af0404;
 }
 
 #prevBttn {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    color: #AF0404;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #af0404;
 }
 
 #prevBttn:hover {
-    color: #FF7100;
-    
+  color: #ff7100;
 }
 
 #nextBttn:hover {
-    color: #FF7100;
-    
-
+  color: #ff7100;
 }
