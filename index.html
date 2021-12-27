@@ -14,11 +14,16 @@
     <title>Meme Generator</title>
 </head>
 <body>
+
  
     <div class="page-container">
 
-        <h1 id="header">Make your Meme</h1>
-
+        <div class="nav-container"> 
+            
+          
+            <h1 id="header">Make your Meme</h1>
+          
+    
         <div id="formCont" class="form-container">
             <form class="form">
                 <div class="input-container" id="inputCont1">
@@ -41,23 +46,27 @@
                     <label>Text 5</label>
                     <input id="input5" type="text"> 
                 </div>
-
-
+    
+                <div class="button-cont">
                 <div id="buttonCont" class="button-container">
                     <button type="button" class="submitButton" id="submitBttn" onsubmit="event.preventDefault">Create</button>
                     <input id="resetBttn" type="reset">
                     <button type="button" class="saveButton" id ="saveBttn" onclick="save()">Save</button>
                 </div>
-
+                </div>
+    
                 
             </form>
         </div>
-
+    
         <div class="navBttns">
-            <button id="prevBttn"><<</button>
-            <button id="nextBttn">>></button>
+            <button id="prevBttn">◄</button>
+            <button id="nextBttn">►</button>
+        </div>
+    
         </div>
         
+        <div class="meme-background">
         <div id="capture">
             <div class="meme-container">
                 <img class="meme-image" src="/images/meme.jpeg">
@@ -142,28 +151,17 @@
                 
             </div>
         </div>
+        </div>
        
         <div id="imageGenerated">
 
         </div>
 
+    
+     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="footer">
+        <i><figcaption>Created by <a class="hyperlink" target="_blank" href="https://github.com/solidliquidsmokeair">Stan Gogan</a> & <a class="hyperlink" target="_blank" href="https://github.com/Sam-WardPickering">Sam Ward-Pickering</a></figcaption></i>
     </div>
     <script src="app.js"></script>
     <script src="html2canvas.min.js"></script>

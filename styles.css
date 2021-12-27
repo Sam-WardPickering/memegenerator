@@ -1,7 +1,14 @@
 body {
     margin: 0;
     color: black;
+    /*background-color: rgb(221, 204, 198);*/
+    background-color: #F3F4ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
 }
+
 
 .meme-container {
     display: flex;
@@ -15,9 +22,26 @@ body {
    position: absolute
 }
 
-.page-container{
+.nav-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #ffaf87;
+    padding: 10px;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* left: 0;
+    margin-left: 20px;
+    margin-top: 20px; */
+    
+    /* position: absolute; */
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    /* vertical-align: top; */
     align-items: center;
 }
 
@@ -26,6 +50,17 @@ body {
     height: 600px;
     z-index: 2;
     /*background-color: rgba(0, 128, 0, 0.274);*/
+}
+
+.meme-background {
+    background-color: #ffffff;
+    border: #FF7F3F;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 20px;
+    z-index: -3;
+    margin: 20px;
 }
 
 .meme-text {
@@ -163,16 +198,35 @@ h1 {
 }
 
 #resetBttn:hover {
-    background-color: #A6DCEF;
+    background-color: #F2A154;
     color: white;
 }
 
 .submitButton:hover {
-    background-color: #89C9B8;
+    background-color: #F2A154;
+    color: white;
+}
+
+#saveBttn {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 9px;
+    border-width: 2px;
+    padding: 6px 10px 6px 10px;
+    border-style: block;
+    text-decoration: none;
+}
+
+#saveBttn:hover {
+    background-color: #F2A154;
     color: white;
 }
 
 .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding-top: 8px;
 }
 
@@ -362,4 +416,47 @@ h1 {
 
 .meme-image {
     z-index: -3;
+}
+
+.footer  {
+    font-family: 'Roboto', sans-serif;
+    color: #364547;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    position: sticky
+}
+
+.hyperlink {
+    color: #364547;
+}
+
+#nextBttn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #AF0404;
+}
+
+#prevBttn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #AF0404;
+}
+
+#prevBttn:hover {
+    color: #FF7100;
+    
+}
+
+#nextBttn:hover {
+    color: #FF7100;
+    
+
 }
