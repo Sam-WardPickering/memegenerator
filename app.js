@@ -25,7 +25,7 @@ document.getElementById("resetBttn").addEventListener('click', resetMeme);
 memeText1 = document.getElementById('memeText1')
 
 const imageName = document.querySelector('.meme-image');
-const templates = ['/images/meme.jpeg', '/images/lisa.png', '/images/clown.png', '/images/buttons.jpeg', '/images/everywhere.jpeg', '/images/wonka.jpeg']
+const templates = ['images/meme.jpeg', 'images/lisa.png', 'images/clown.png', 'images/buttons.jpeg', 'images/everywhere.jpeg', 'images/wonka.jpeg']
 
 let inputData = []
 let output0 = 'memeText1'
