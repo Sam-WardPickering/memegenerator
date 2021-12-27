@@ -204,7 +204,9 @@ function pageLoad(){
 function save() {
 
     html2canvas(capture).then(canvas => {
-        document.getElementById('imageGenerated').appendChild(canvas)
+        //document.getElementById('imageGenerated').appendChild(canvas)
+        let image = canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream');
+        window.location.href=image;
     });
     
 }
