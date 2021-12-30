@@ -398,6 +398,7 @@ h1 {
   z-index: -3;
 }
 
+/*
 .footer {
   font-family: "Roboto", sans-serif;
   color: #364547;
@@ -410,6 +411,7 @@ h1 {
   position: absolute;
   bottom: 0;
 }
+*/
 
 .hyperlink {
   color: #364547;
